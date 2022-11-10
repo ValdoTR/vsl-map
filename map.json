@@ -169,13 +169,23 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2885, 2885, 0, 0, 0, 0, 2885, 2885, 2885, 2885, 2885, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":30,
          "id":46,
-         "name":"ZIK1-ambiance-campagne",
+         "name":"audioBirds",
          "opacity":1,
          "properties":[
                 {
+                 "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"audioVolume",
+                 "type":"float",
+                 "value":0.3
+                }, 
+                {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"tilesets\/music\/528661__taavhaap__relaxing-forest-birds-chirping-in-the-north-woods-part1.ogg"
+                 "value":"audio\/birds.ogg"
                 }],
          "type":"tilelayer",
          "visible":true,

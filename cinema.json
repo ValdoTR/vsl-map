@@ -62,7 +62,7 @@
                 {
                  "name":"silent",
                  "type":"bool",
-                 "value":false
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -797,7 +797,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":20,
          "id":46,
-         "name":"\u00e9crans",
+         "name":"ecrans",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
