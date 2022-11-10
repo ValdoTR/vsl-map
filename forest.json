@@ -1033,17 +1033,12 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"BBI - Forest"
+         "value":"VSL - Forest"
         }, 
         {
          "name":"mapImage",
          "type":"string",
          "value":"forest.png"
-        }, 
-        {
-         "name":"mapLink",
-         "type":"string",
-         "value":"https:\/\/lizz06.github.io\/bouygues-construction-wa-map\/forest.json"
         }, 
         {
          "name":"mapName",
@@ -1053,7 +1048,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
