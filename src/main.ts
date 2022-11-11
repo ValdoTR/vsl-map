@@ -15,49 +15,49 @@ WA.onInit().then(() => {
     WA.room.onEnterLayer('zones/cinema1').subscribe(() => {
         const url = WA.state["cinema1"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema1Popup", "L'esprit pionnier ", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema1Popup", "SHARJAH UNDERPASS", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema1').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema2').subscribe(() => {
         const url = WA.state["cinema2"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema2Popup", "Flamingo", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema2Popup", "HS2 - GROUND ENGINEERING KVJV", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema2').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema3').subscribe(() => {
         const url = WA.state["cinema3"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema3Popup", "Capita Spring", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema3Popup", "VANDELLOS NPP", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema3').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema4').subscribe(() => {
         const url = WA.state["cinema4"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema4Popup", "Grand Aston Hotel ", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema4Popup", "MTHL", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema4').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema5').subscribe(() => {
         const url = WA.state["cinema5"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema5Popup", "Bouygues Turkmen Major references", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema5Popup", "LAGUNITAS", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema5').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema6').subscribe(() => {
         const url = WA.state["cinema6"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema6Popup", "Musée Yves Saint Laurent", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema6Popup", "SHANDONG WUCHENG MAJIAYING", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema7').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema7').subscribe(() => {
         const url = WA.state["cinema7"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema7Popup", "Ocean Cay", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema7Popup", "WORKCONNECT", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema7').subscribe(closePopup)
 
@@ -71,28 +71,28 @@ WA.onInit().then(() => {
     WA.room.onEnterLayer('zones/cinema9').subscribe(() => {
         const url = WA.state["cinema9"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema9Popup", "ATG Diamond", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema9Popup", "CROSS BAY LINK - MOVIE", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema9').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema10').subscribe(() => {
         const url = WA.state["cinema10"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema10Popup", "Elevate", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema10Popup", "BARRANDOV BRIDGE", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema10').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema11').subscribe(() => {
         const url = WA.state["cinema11"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema11Popup", "I am a Safety leader", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema11Popup", "WEBINAR1 – LEAN MANAGEMENT", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema11').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema12').subscribe(() => {
         const url = WA.state["cinema12"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema12Popup", "Notre ambition Carbone", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema12Popup", "LINHDAM", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema12').subscribe(closePopup)
 
@@ -153,13 +153,13 @@ WA.onInit().then(() => {
 
     // =================== TAVERN ===================
     WA.room.onEnterLayer('drinkZone').subscribe(() => {
-        const urlMojito = "https://www.750g.com/mojito-r99211.htm"
-        const urlMartini = "https://www.ateliersetsaveurs.com/les-recettes/cocktails/detail/981/green-martini"
+        const url1 = "https://valdotr.github.io/vsl-map/Gingerbread_Latte.pdf"
+        const url2 = "https://valdotr.github.io/vsl-map/Pumpkin_Spice_Latte"
 
         //@ts-ignore
         currentPopup = WA.ui.openPopup("drinkZonePopup", "Qu'est-ce que je vous sers ?", [
-            {label: 'Red Mojito', className: 'primary', callback: () => openWebsite(urlMojito)},
-            {label: 'Green Martini', className: 'primary', callback: () => openWebsite(urlMartini)},
+            {label: 'Gingerbread latte', className: 'primary', callback: () => openWebsite(url1)},
+            {label: 'Pumpkin spice latte', className: 'primary', callback: () => openWebsite(url2)},
         ]);
     })
     WA.room.onLeaveLayer('drinkZone').subscribe(closePopup)
