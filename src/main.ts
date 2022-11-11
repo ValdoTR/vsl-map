@@ -157,7 +157,7 @@ WA.onInit().then(() => {
         const url2 = "https://valdotr.github.io/vsl-map/Pumpkin_Spice_Latte"
 
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("drinkZonePopup", "Qu'est-ce que je vous sers ?", [
+        currentPopup = WA.ui.openPopup("drinkZonePopup", "Hello there, We have two trendy drinks at the moment:", [
             {label: 'Gingerbread latte', className: 'primary', callback: () => openWebsite(url1)},
             {label: 'Pumpkin spice latte', className: 'primary', callback: () => openWebsite(url2)},
         ]);
