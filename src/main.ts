@@ -154,7 +154,7 @@ WA.onInit().then(() => {
     // =================== TAVERN ===================
     WA.room.onEnterLayer('drinkZone').subscribe(() => {
         const url1 = "https://valdotr.github.io/vsl-map/Gingerbread_Latte.pdf"
-        const url2 = "https://valdotr.github.io/vsl-map/Pumpkin_Spice_Latte"
+        const url2 = "https://valdotr.github.io/vsl-map/Pumpkin_Spice_Latte.pdf"
 
         //@ts-ignore
         currentPopup = WA.ui.openPopup("drinkZonePopup", "Hello there, We have two trendy drinks at the moment:", [
