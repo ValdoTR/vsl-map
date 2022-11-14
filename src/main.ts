@@ -99,55 +99,55 @@ WA.onInit().then(() => {
     // =================== MARKET ===================
     WA.room.onEnterLayer('zones/market1').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market1Popup", "Pierre Auberger te parle", []);
+        currentPopup = WA.ui.openPopup("market1Popup", "Segment precasting for Mombasa bridge, Kenya", []);
     })
     WA.room.onLeaveLayer('zones/market1').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market2').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market2Popup", "Les insights de DALS", []);
+        currentPopup = WA.ui.openPopup("market2Popup", "Gecama Windfarm, Spain", []);
     })
     WA.room.onLeaveLayer('zones/market2').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market3').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market3Popup", "Les bons plans Bouygues Immo pour acheter pas cher", []);
+        currentPopup = WA.ui.openPopup("market3Popup", "Segment precasting for MTHL bridge, India", []);
     })
     WA.room.onLeaveLayer('zones/market3').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market4').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market4Popup", "Victoria, 24 ans, pilote de tunnelier sur le RER E", []);
+        currentPopup = WA.ui.openPopup("market4Popup", "External post-tensioning for Cross Bay Link Bridge, Hong Kong", []);
     })
     WA.room.onLeaveLayer('zones/market4').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market5').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market5Popup", "La 5G et les vaccins Pfizer", []);
+        currentPopup = WA.ui.openPopup("market5Popup", "Post-tensioning for D2 &amp; D3 buildings, Vietnam", []);
     })
     WA.room.onLeaveLayer('zones/market5').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market6').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market6Popup", "Les secrets de Koh Lanta", []);
+        currentPopup = WA.ui.openPopup("market6Popup", "External post-tensioning for Yau Ma Tei Bridge, Hong Kong", []);
     })
     WA.room.onLeaveLayer('zones/market6').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market7').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market7Popup", "Le coin de ceux qui cherchent des bons artisans pas cher en Ile de France pour refaire leur salle de bain", []);
+        currentPopup = WA.ui.openPopup("market7Popup", "Digitalise - Workerconnect", []);
     })
     WA.room.onLeaveLayer('zones/market7').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market8').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market8Popup", "Les dessous des pubs Bouygues Telecom", []);
+        currentPopup = WA.ui.openPopup("market8Popup", "Post-tensioning on Shandong Wucheng Majiaying wind farm, China", []);
     })
     WA.room.onLeaveLayer('zones/market8').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market9').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market9Popup", "Devenir community manager chez Colas", []);
+        currentPopup = WA.ui.openPopup("market9Popup", "Grouting injection for ground anchors installation on Lindham building, Vietnam", []);
     })
     WA.room.onLeaveLayer('zones/market9').subscribe(closePopup)
 
