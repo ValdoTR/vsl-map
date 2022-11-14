@@ -15,84 +15,84 @@ WA.onInit().then(() => {
     WA.room.onEnterLayer('zones/cinema1').subscribe(() => {
         const url = WA.state["cinema1"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema1Popup", "SHARJAH UNDERPASS", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema1Popup", "SHARJAH UNDERPASS", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema1').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema2').subscribe(() => {
         const url = WA.state["cinema2"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema2Popup", "HS2 - GROUND ENGINEERING KVJV", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema2Popup", "HS2 - GROUND ENGINEERING KVJV", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema2').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema3').subscribe(() => {
         const url = WA.state["cinema3"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema3Popup", "VANDELLOS NPP", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema3Popup", "VANDELLOS NPP", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema3').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema4').subscribe(() => {
         const url = WA.state["cinema4"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema4Popup", "MTHL", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema4Popup", "MTHL", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema4').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema5').subscribe(() => {
         const url = WA.state["cinema5"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema5Popup", "LAGUNITAS", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema5Popup", "LAGUNITAS", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema5').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema6').subscribe(() => {
         const url = WA.state["cinema6"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema6Popup", "SHANDONG WUCHENG MAJIAYING", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema6Popup", "SHANDONG WUCHENG MAJIAYING", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema7').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema7').subscribe(() => {
         const url = WA.state["cinema7"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema7Popup", "WORKCONNECT", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema7Popup", "WORKCONNECT", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema7').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema8').subscribe(() => {
         const url = WA.state["cinema8"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema8Popup", "Tour CFC", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema8Popup", "Tour CFC", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema8').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema9').subscribe(() => {
         const url = WA.state["cinema9"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema9Popup", "CROSS BAY LINK - MOVIE", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema9Popup", "CROSS BAY LINK - MOVIE", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema9').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema10').subscribe(() => {
         const url = WA.state["cinema10"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema10Popup", "BARRANDOV BRIDGE", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema10Popup", "BARRANDOV BRIDGE", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema10').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema11').subscribe(() => {
         const url = WA.state["cinema11"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema11Popup", "WEBINAR1 – LEAN MANAGEMENT", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema11Popup", "WEBINAR1 – LEAN MANAGEMENT", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema11').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/cinema12').subscribe(() => {
         const url = WA.state["cinema12"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema12Popup", "LINHDAM", [{label: 'Voir le film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema12Popup", "LINHDAM", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema12').subscribe(closePopup)
 
