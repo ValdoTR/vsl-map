@@ -556,6 +556,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"christelle"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -603,6 +608,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"antoine"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -650,6 +660,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"Christian"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -697,6 +712,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"fabienne-alain"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -744,6 +764,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"kevin"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -791,6 +816,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"nikita"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -838,6 +868,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"rami"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -885,6 +920,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"xavier"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -932,6 +972,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"yohann-tristan"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"speaker"
                 }],
          "type":"tilelayer",
          "visible":true,
