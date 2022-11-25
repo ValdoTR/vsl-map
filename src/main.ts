@@ -64,7 +64,7 @@ WA.onInit().then(() => {
     WA.room.onEnterLayer('zones/cinema8').subscribe(() => {
         const url = WA.state["cinema8"] as string;
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("cinema8Popup", "Tour CFC", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
+        currentPopup = WA.ui.openPopup("cinema8Popup", "TC SINGAPORE", [{label: 'Watch the film', className: 'primary', callback: () => openWebsite(url)}]);
     })
     WA.room.onLeaveLayer('zones/cinema8').subscribe(closePopup)
 
@@ -99,7 +99,7 @@ WA.onInit().then(() => {
     // =================== MARKET ===================
     WA.room.onEnterLayer('zones/market1').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market1Popup", "Segment precasting for Mombasa bridge, Kenya", []);
+        currentPopup = WA.ui.openPopup("market1Popup", "Beam Erection for Mombasa bridge, Kenya", []);
     })
     WA.room.onLeaveLayer('zones/market1').subscribe(closePopup)
 
@@ -111,7 +111,7 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('zones/market3').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market3Popup", "Segment precasting for MTHL bridge, India", []);
+        currentPopup = WA.ui.openPopup("market3Popup", "MTHL bridge, India", []);
     })
     WA.room.onLeaveLayer('zones/market3').subscribe(closePopup)
 
@@ -123,7 +123,7 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('zones/market5').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market5Popup", "Post-tensioning for D2 &amp; D3 buildings, Vietnam", []);
+        currentPopup = WA.ui.openPopup("market5Popup", "Post-tensioning for D2 & D3 buildings, Vietnam", []);
     })
     WA.room.onLeaveLayer('zones/market5').subscribe(closePopup)
 

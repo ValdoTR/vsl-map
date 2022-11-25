@@ -1188,7 +1188,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":160,
+                 "height":172.952655611631,
                  "id":25,
                  "name":"jitsiStand2",
                  "properties":[
@@ -1211,11 +1211,11 @@
                  "visible":true,
                  "width":235.535557317952,
                  "x":386.34181038212,
-                 "y":576.380677721702
+                 "y":595.047344388369
                 }, 
                 {
                  "class":"area",
-                 "height":160,
+                 "height":177.252583513578,
                  "id":26,
                  "name":"jitsiStand3",
                  "properties":[
@@ -1238,11 +1238,11 @@
                  "visible":true,
                  "width":283.985449170872,
                  "x":34.5033100216295,
-                 "y":544.080749819755
+                 "y":558.747416486422
                 }, 
                 {
                  "class":"area",
-                 "height":160,
+                 "height":174.666666666667,
                  "id":27,
                  "name":"jitsiStand6",
                  "properties":[
@@ -1265,11 +1265,11 @@
                  "visible":true,
                  "width":293.214,
                  "x":224,
-                 "y":224
+                 "y":241.333333333333
                 }, 
                 {
                  "class":"area",
-                 "height":160,
+                 "height":162.666666666667,
                  "id":28,
                  "name":"jitsiStand5",
                  "properties":[
@@ -1290,13 +1290,13 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":298.981844268205,
+                 "width":282.981844268205,
                  "x":560.149963950973,
-                 "y":192
+                 "y":221.333333333333
                 }, 
                 {
                  "class":"area",
-                 "height":160,
+                 "height":170.666666666667,
                  "id":29,
                  "name":"jitsiStand4",
                  "properties":[
@@ -1317,13 +1317,13 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":283.985449170872,
-                 "x":905.228550829128,
-                 "y":288
+                 "width":281.318782504205,
+                 "x":907.895217495795,
+                 "y":309.333333333333
                 }, 
                 {
                  "class":"area",
-                 "height":160,
+                 "height":168,
                  "id":30,
                  "name":"jitsiStand7",
                  "properties":[
@@ -1346,11 +1346,11 @@
                  "visible":true,
                  "width":293.214,
                  "x":960,
-                 "y":64
+                 "y":88
                 }, 
                 {
                  "class":"area",
-                 "height":160,
+                 "height":169.333333333333,
                  "id":31,
                  "name":"jitsiStand8",
                  "properties":[
@@ -1373,11 +1373,11 @@
                  "visible":true,
                  "width":266.681916366258,
                  "x":462.996395097332,
-                 "y":0
+                 "y":22.6666666666667
                 }, 
                 {
                  "class":"area",
-                 "height":130.007209805335,
+                 "height":160,
                  "id":32,
                  "name":"jitsiStand9",
                  "properties":[
@@ -1508,7 +1508,7 @@
          "y":0
         }],
  "nextlayerid":62,
- "nextobjectid":34,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "properties":[
         {
