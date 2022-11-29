@@ -99,55 +99,55 @@ WA.onInit().then(() => {
     // =================== MARKET ===================
     WA.room.onEnterLayer('zones/market1').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market1Popup", "Beam Erection for Mombasa bridge, Kenya", []);
+        currentPopup = WA.ui.openPopup("market1Popup", "Colne Valley Viaduct, UK", []);
     })
     WA.room.onLeaveLayer('zones/market1').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market2').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market2Popup", "Gecama Windfarm, Spain", []);
+        currentPopup = WA.ui.openPopup("market2Popup", "Sharjah underpass, UAE", []);
     })
     WA.room.onLeaveLayer('zones/market2').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market3').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market3Popup", "MTHL bridge, India", []);
+        currentPopup = WA.ui.openPopup("market3Popup", "Stay-cable A40 bridge, Germany", []);
     })
     WA.room.onLeaveLayer('zones/market3').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market4').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market4Popup", "External post-tensioning for Cross Bay Link Bridge, Hong Kong", []);
+        currentPopup = WA.ui.openPopup("market4Popup", "KVJV HS2, UK", []);
     })
     WA.room.onLeaveLayer('zones/market4').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market5').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market5Popup", "Post-tensioning for D2 & D3 buildings, Vietnam", []);
+        currentPopup = WA.ui.openPopup("market5Popup", "Lagunitas water clarifier, Chile", []);
     })
     WA.room.onLeaveLayer('zones/market5').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market6').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market6Popup", "External post-tensioning for Yau Ma Tei Bridge, Hong Kong", []);
+        currentPopup = WA.ui.openPopup("market6Popup", "Vandellos nuclear plant, Spain", []);
     })
     WA.room.onLeaveLayer('zones/market6').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market7').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market7Popup", "Digitalise - Workerconnect", []);
+        currentPopup = WA.ui.openPopup("market7Popup", "Tendon prefabrication, Portugal", []);
     })
     WA.room.onLeaveLayer('zones/market7').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market8').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market8Popup", "Post-tensioning on Shandong Wucheng Majiaying wind farm, China", []);
+        currentPopup = WA.ui.openPopup("market8Popup", "QuickConnect App", []);
     })
     WA.room.onLeaveLayer('zones/market8').subscribe(closePopup)
 
     WA.room.onEnterLayer('zones/market9').subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup("market9Popup", "Grouting injection for ground anchors installation on Lindham building, Vietnam", []);
+        currentPopup = WA.ui.openPopup("market9Popup", "Barrandov bridge, Czech Republic", []);
     })
     WA.room.onLeaveLayer('zones/market9').subscribe(closePopup)
 
